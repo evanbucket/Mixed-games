@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Title.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Snake PVP/Assets/Scenes/SnakeGame.unity
-    guid: 91160aa39c7ccc24ea3d0e8abc1621c2
+    guid: 30bc73c5a9be8bc4cac7e28b42762065
   - enabled: 1
     path: Assets/Snake PVP/Assets/Scenes/AngryWin.unity
     guid: 0de0dc8e3a4a7574896b660470ef8b70
   - enabled: 1
     path: Assets/Snake PVP/Assets/Scenes/SadWin.unity
     guid: 49c724acf8890984aa233a6af23a5c6e
+  - enabled: 1
+    path: Assets/Sumo/Assets/Scenes/Sumo.unity
+    guid: 76189cd9f15a4df43b408d7f1ea6aadc
   m_configObjects: {}

@@ -281,6 +281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dba380d10f9a5428ed67f79b347f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  speedMultiplier: 1
   segmentPrefab: {fileID: 8291240845200575037, guid: 96582bb48e30af746bc3751fd3f8fe86, type: 3}
   angrySnake: {fileID: 1553004783}
   foodFruit2: {fileID: 15038085}
@@ -965,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -413, y: 220}
+  m_AnchoredPosition: {x: -385.4, y: 207.2}
   m_SizeDelta: {x: 49.351196, y: 49.351196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806060249
@@ -6069,7 +6071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 413, y: 220}
+  m_AnchoredPosition: {x: 385.4, y: 207.2}
   m_SizeDelta: {x: 49.351196, y: 49.351196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994712944
@@ -6145,7 +6147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 413, y: 178}
+  m_AnchoredPosition: {x: 385.4, y: 163.1}
   m_SizeDelta: {x: 49.351196, y: 49.351196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1039334085
@@ -6237,9 +6239,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 800}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.289
+  m_MatchWidthOrHeight: 0.224
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6317,7 +6319,7 @@ RectTransform:
   m_GameObject: {fileID: 1174669049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.366061, y: 2.366061, z: 2.366061}
+  m_LocalScale: {x: 2.1571982, y: 2.1571982, z: 2.1571982}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1144063557}
@@ -6325,7 +6327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 418, y: -210}
+  m_AnchoredPosition: {x: 373.9, y: -192.9}
   m_SizeDelta: {x: 38.729, y: 40.303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174669051
@@ -6401,7 +6403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -413, y: 178}
+  m_AnchoredPosition: {x: -385.4, y: 163.1}
   m_SizeDelta: {x: 49.351196, y: 49.351196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519620859
@@ -6589,6 +6591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a17900096800e645bce57adc6ac0915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  speedMultiplier: 1
   segmentPrefab: {fileID: 8291240845200575037, guid: 1f8bcd078b2eca640b183729b74efad8, type: 3}
   sadSnake: {fileID: 155652139}
   foodFruit: {fileID: 344067442}
@@ -6637,7 +6641,7 @@ RectTransform:
   m_GameObject: {fileID: 1972952819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3660612, y: 2.3660612, z: 2.3660612}
+  m_LocalScale: {x: 2.1571982, y: 2.1571982, z: 2.1571982}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1144063557}
@@ -6645,7 +6649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -418, y: -210}
+  m_AnchoredPosition: {x: -373.9, y: -192.9}
   m_SizeDelta: {x: 38.729, y: 40.303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972952821
