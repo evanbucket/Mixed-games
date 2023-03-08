@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Title.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Snake PVP/Assets/Scenes/StartScreen.unity
+    guid: 3ed75b43358532b4fb0c2af2421d069c
+  - enabled: 1
     path: Assets/Snake PVP/Assets/Scenes/SnakeGame.unity
     guid: 30bc73c5a9be8bc4cac7e28b42762065
   - enabled: 1
