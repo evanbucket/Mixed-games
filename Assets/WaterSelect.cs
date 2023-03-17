@@ -7,6 +7,6 @@ public class WaterSelect : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("", LoadSceneMode.Single);
+        SceneManager.LoadScene("Water", LoadSceneMode.Single);
     }
 }
